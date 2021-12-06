@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.SoftAssertion">
+      <class name="com.qa.test.Priority_In_testNG">
         <methods>
-          <include name="hardAssert2"/>
+          <include name="FaceBookPageTitleVerification"/>
         </methods>
-      </class> <!-- com.qa.test.SoftAssertion -->
+      </class> <!-- com.qa.test.Priority_In_testNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
