@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNgMavenExampleSuite" parallel="false">
+	<test name="TestNgMavenTest">
+		<!-- <packages> <package name="com.qa.test.*"></package> </packages> -->
+
+		<!-- <classes> <class name="com.qa.test.TestNgMavenExampleTest" /> <class 
+			name="com.qa.test.TestNgMavenSecondClass" /> </classes> -->
+
+		<!-- <parameter name="browser" value="firefox" /> <classes> <class name="com.qa.test.ParameterizedTest" 
+			/> </classes> -->
+		<!-- <classes> <class name="com.qa.test.TestNGException" /> </classes> -->
+
+		<!-- <groups> <define name="all"> <include name="smokeTest" /> <include 
+			name="functionalTest" /> </define> <run> <include name="all" /> </run> </groups> 
+			<classes> <class name="com.qa.test.TestCase1" /> <class name="com.qa.test.TestCase2" 
+			/> </classes> <classes> <class name="com.qa.test.TestCase1" /> <class name="com.qa.test.TestCase2" 
+			/> </classes> -->
+
+		<classes>
+			<class name="com.qa.test.ParallelTests" />
+		</classes>
+	</test>
+</suite>
