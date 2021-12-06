@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.calender.test.Example7">
+      <class name="com.qa.test.SoftAssertion">
         <methods>
-          <include name="enterText"/>
+          <include name="hardAssert2"/>
         </methods>
-      </class> <!-- com.calender.test.Example7 -->
+      </class> <!-- com.qa.test.SoftAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
