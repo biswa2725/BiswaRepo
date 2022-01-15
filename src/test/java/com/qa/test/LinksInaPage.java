@@ -25,8 +25,8 @@ public class LinksInaPage {
 		// System.setProperty("webdriver.chrome.driver",
 		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
 
-		System.setProperty("webdriver.chrome.driver",
-				"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
+		//System.setProperty("webdriver.chrome.driver",
+				//"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
 
 		driver = new ChromeDriver();
 		driver.get("https://money.rediff.com/gainers/bsc/daily/groupa");

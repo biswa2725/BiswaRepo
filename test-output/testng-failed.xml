@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.baseclassConcept.org.InvalidLogin">
+      <class name="com.report.testng.ExtentReportsClass">
         <methods>
-          <include name="loginToApplication1"/>
-          <include name="setupApplication"/>
-          <include name="closeApplication"/>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="failTest"/>
         </methods>
-      </class> <!-- com.baseclassConcept.org.InvalidLogin -->
+      </class> <!-- com.report.testng.ExtentReportsClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
